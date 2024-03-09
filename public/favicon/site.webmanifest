@@ -1,6 +1,6 @@
 {
-  "name": "Health Plus",
-  "short_name": "Health Plus",
+  "name": "Patient Information System",
+  "short_name": "PIS",
   "icons": [
     {
       "src": "./android-chrome-192x192.png",
