@@ -41,10 +41,16 @@ function Hero() {
           Patient Information System (PIS)
           </h2>
           <div class="text-descritpion" >
-              <p>It  automates the storage, retrieval, and management of patient data. The primary goals include creating a web-based system to collect and store patient information, manage bills, record accurate diagnoses, and track appointments while ensuring the security of sensitive medical data.</p>
+              <p>
+                It  automates the storage, retrieval, and management of patient 
+                data. The primary goals include creating a web-based system to 
+                collect and store patient information, manage bills, record 
+                accurate diagnoses, and track appointments while ensuring 
+                the security of sensitive medical data.
+                </p>
           </div>      
           <div className="hero-image-section">
-          <img className="hero-image1" src={Doctor} alt="Doctor" />
+            <img className="hero-image1" src={Doctor} alt="Doctor" />
           </div>
       </div>
       <div
