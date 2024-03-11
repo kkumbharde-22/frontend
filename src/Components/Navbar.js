@@ -7,7 +7,6 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import "../Styles/Navbar.css";
 import { Link } from "react-router-dom";
-// import { toast } from "react-toastify";
 
 function Navbar() {
   const [nav, setNav] = useState(false);
@@ -17,21 +16,11 @@ function Navbar() {
     setNav(!nav);
   };
 
-  // const handleChatBtnClick = () => {
-  //   if (!isButtonDisabled) {
-  //     toast.info("Experiencing high traffic, Please wait a moment.", {
-  //       position: toast.POSITION.TOP_CENTER,
-  //       onOpen: () => setIsButtonDisabled(true),
-  //       onClose: () => setIsButtonDisabled(false),
-  //     });
-  //   }
-  // };
-
   return (
     <div className="navbar-section">
       <h1 className="navbar-title">
         <Link to="/">
-          Health <span className="navbar-sign">+</span>
+          PIS <span className="navbar-sign">+</span>
         </Link>
       </h1>
 
