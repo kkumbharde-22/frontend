@@ -13,9 +13,9 @@ function Hero() {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
-  const handleBookAppointmentClick = () => {
-    navigate("/appointment");
-  };
+  // const handleBookAppointmentClick = () => {
+  //   navigate("/appointment");
+  // };
 
   useEffect(() => {
     const onPageScroll = () => {
@@ -36,51 +36,30 @@ function Hero() {
     <div className="section-container">
       <div className="hero-section">
         <div className="text-section">
-          <p className="text-headline">❤️ Health comes first</p>
+          <p className="text-headline"> Health comes first</p>
           <h2 className="text-title">
-            Find your Doctor and make an Appointments
+          Patient Information System (PIS)
           </h2>
-          <p className="text-descritpion">
-            Talk to online doctors and get medical advice, online prescriptions,
-            refills and medical notes within minutes. On-demand healthcare
-            services at your fingertips.
-          </p>
-          <button
-            className="text-appointment-btn"
-            type="button"
-            onClick={handleBookAppointmentClick}
-          >
-            <FontAwesomeIcon icon={faCalendarCheck} /> Book Appointment
-          </button>
-          <div className="text-stats">
-            <div className="text-stats-container">
-              <p>145k+</p>
-              <p>Receive Patients</p>
-            </div>
-
-            <div className="text-stats-container">
-              <p>50+</p>
-              <p>Expert Doctors</p>
-            </div>
-
-            <div className="text-stats-container">
-              <p>10+</p>
-              <p>Years of Experience</p>
-            </div>
+          <div class="text-descritpion" >
+              <p>
+                It  automates the storage, retrieval, and management of patient 
+                data. The primary goals include creating a web-based system to 
+                collect and store patient information, manage bills, record 
+                accurate diagnoses, and track appointments while ensuring 
+                the security of sensitive medical data.
+                </p>
+          </div>      
+          <div className="hero-image-section">
+            <img className="hero-image1" src={Doctor} alt="Doctor" />
           </div>
-        </div>
-
-        <div className="hero-image-section">
-          <img className="hero-image1" src={Doctor} alt="Doctor" />
-        </div>
       </div>
-
       <div
         onClick={scrollToTop}
         className={`scroll-up ${goUp ? "show-scroll" : ""}`}
       >
         <FontAwesomeIcon icon={faAngleUp} />
       </div>
+    </div>
     </div>
   );
 }
