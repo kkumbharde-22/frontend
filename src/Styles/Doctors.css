@@ -1,4 +1,4 @@
-.doctor-section {
+/* .doctor-section {
     padding: 32px;
     margin: 0 0 32px 0;
     text-align: center;
@@ -36,7 +36,7 @@
     line-height: 1.8rem;
 }
 /* Doctor Cards */
-.dt-cards-content {
+/*.dt-cards-content {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -84,7 +84,7 @@
     letter-spacing: .7px;
 }
 /* Responsive */
-@media screen and (max-width: 700px) {
+/* @media screen and (max-width: 700px) {
     .dt-title {
         font-size: 32px;
     }
@@ -92,4 +92,4 @@
         margin: 48px 0 0;
         font-size: 18px;
     }
-}
+}  */

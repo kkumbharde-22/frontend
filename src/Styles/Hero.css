@@ -1,6 +1,7 @@
 .hero-section {
     padding: 20px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
     /* gap: 24px; */
@@ -31,11 +32,13 @@
 }
 .text-descritpion {
     margin-top: 20px;
+    margin-right: 50px;
     color: rgb(77, 75, 75);
     font-family: 'Rubik', sans-serif;
     font-size: 18px;
     letter-spacing: .7px;
     line-height: 1.6rem;
+    width: 50%;
 }
 /* .text-appointment-btn {
     padding: 14px 20px;
@@ -80,11 +83,15 @@
 } */
 /* Image section */
 .hero-image-section {
-    flex-shrink: 0;
+    flex-shrink: inherit;
 }
 .hero-image1 {
-    max-width: 100%;
-    height: auto;
+    max-width: 40%;
+    height: 300px;
+    margin-top: 20px;
+    position: absolute;
+    top: 60px; 
+    right: 200px;
 }
 /* Scroll Btn */
 .scroll-up {

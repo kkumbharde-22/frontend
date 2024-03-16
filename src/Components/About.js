@@ -15,8 +15,8 @@ function About() {
           <span>About Us</span>
         </h3>
         <p className="about-description">
-          Welcome to Health Plus, your trusted partner for accessible and
-          personalized healthcare. Our expert doctors offer online consultations
+          Welcome to Patient Information System, your trusted partner for accessible and
+          personalized healthcare. Our expert system offers online storage
           and specialized services, prioritizing your well-being. Join us on
           this journey towards a healthier you.
         </p>
@@ -25,7 +25,7 @@ function About() {
 
         <SolutionStep
           title="Choose a Specialist"
-          description="Find your perfect specialist and book with ease at Health Plus. Expert doctors prioritize your health, offering tailored care."
+          description="Find your perfect specialist and book with ease at PIS. Expert doctors prioritize your health, offering tailored care."
         />
 
         <SolutionStep
@@ -34,8 +34,8 @@ function About() {
         />
 
         <SolutionStep
-          title="Get Your Solutions"
-          description="Our experienced doctors and specialists are here to provide expert advice and personalized treatment plans, helping you achieve your best possible health."
+          title="Get Your Reports"
+          description="Our system enables you to view accese and edit reports at your finger tips."
         />
       </div>
     </div>

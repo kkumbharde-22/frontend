@@ -21,8 +21,8 @@ function Info() {
 
       <div className="info-cards-content">
         <InformationCard
-          title="Emergency Care"
-          description="Our Emergency Care service is designed to be your reliable support
+          title="Reports"
+          description="Our Reports service is designed to be your reliable support
             in critical situations. Whether it's a sudden illness, injury, or
             any medical concern that requires immediate attention, our team of
             dedicated healthcare professionals is available 24/7 to provide
@@ -31,7 +31,7 @@ function Info() {
         />
 
         <InformationCard
-          title="Heart Disease"
+          title="Doctors"
           description="Our team of experienced cardiologists and medical experts use
             state-of-the-art technology to assess your cardiovascular health and
             design personalized treatment plans. From comprehensive screenings
@@ -41,7 +41,7 @@ function Info() {
         />
 
         <InformationCard
-          title="Dental Care"
+          title="Appointment"
           description="Smile with confidence as our Dental Care services cater to all your
             oral health needs. Our skilled dentists provide a wide range of
             treatments, from routine check-ups and cleanings to cosmetic
